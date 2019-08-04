@@ -44,7 +44,7 @@ const keyMetaData: TemplateKeyMetaData[] = [
   {
     key: 'gh_repo_name',
     question: 'Github repo name',
-    defaultValue: 'foo',
+    defaultValue: path.basename(WORKING_DIRECTORY),
   },
   {
     key: 'gh_short_description',
