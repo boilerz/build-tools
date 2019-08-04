@@ -12,7 +12,8 @@
     "createPackageFile": "./createPackageFile.js",
     "transpileTS": "./transpileTS.js",
     "cleanDist": "./cleanDist.js",
-    "buildTSPackage": "./buildTSPackage.js"
+    "buildTSPackage": "./buildTSPackage.js",
+    "customBoilerplate": "./customBoilerplate.js"
   },
   "scripts": {
     "lint": "eslint --ext .ts .",
