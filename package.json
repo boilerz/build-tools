@@ -22,13 +22,24 @@
     "build": "yarn build:package && yarn build:chmod"
   },
   "devDependencies": {
-    "@boilerz/eslint-config": "1.4.0",
+    "@boilerz/eslint-config": "1.5.0",
     "@boilerz/prettier-config": "^1.0.0",
     "@boilerz/tsconfig": "^1.0.0",
     "@types/node": "^12.6.9",
-    "eslint": "^5",
+    "eslint": "^6.1.0",
     "prettier": "^1",
     "ts-node": "^8.3.0",
     "typescript": "^3"
+  },
+  "greenkeeper": {
+    "commitMessages": {
+      "initialBadge": ":pencil: add Greenkeeper badge",
+      "initialDependencies": ":arrow_up: update dependencies",
+      "initialBranches": ":tada: whitelist greenkeeper branches",
+      "dependencyUpdate": ":arrow_up: update ${dependency} to version ${version}",
+      "devDependencyUpdate": ":arrow_up: update ${dependency} to version ${version}",
+      "dependencyPin": ":pushpin: pin ${dependency} to ${oldVersion}",
+      "devDependencyPin": ":pushpin: pin ${dependency} to ${oldVersion}"
+    }
   }
 }
