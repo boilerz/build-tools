@@ -1,6 +1,6 @@
 # @boilerz/build-tools
 
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/boilerz/build-tools)](https://www.npmjs.com/package/@boilerz/build-tools) [![Greenkeeper badge](https://badges.greenkeeper.io/boilerz/build-tools.svg)](https://greenkeeper.io/)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/boilerz/build-tools)](https://www.npmjs.com/package/@boilerz/build-tools)
 
 > Common build tools for the JS/TS worlds.
 
