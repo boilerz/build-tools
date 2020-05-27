@@ -22,12 +22,12 @@
     "build": "yarn build:package && yarn build:chmod"
   },
   "devDependencies": {
-    "@boilerz/eslint-config": "1.11.0",
+    "@boilerz/eslint-config": "^1.11.0",
     "@boilerz/prettier-config": "^1.0.0",
     "@boilerz/tsconfig": "^1.0.0",
     "@types/node": "^14.0.5",
     "eslint": "^6.1.0",
-    "prettier": "^1",
+    "prettier": "^2.0.5",
     "ts-node": "^8.10.1",
     "typescript": "^3"
   },
