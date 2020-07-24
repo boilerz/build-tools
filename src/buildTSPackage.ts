@@ -3,12 +3,12 @@
 import cleanDist from './cleanDist';
 import transpileTS from './transpileTS';
 import createPackageFile from './createPackageFile';
-import copyReadme from './copyReadme';
+import copyRequiredFiles from './copyRequiredFiles';
 
 export default async function buildTSPackage(): Promise<void> {
   cleanDist();
   transpileTS();
-  copyReadme();
+  copyRequiredFiles();
   await createPackageFile();
 }
 
