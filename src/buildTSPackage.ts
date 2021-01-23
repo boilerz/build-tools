@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 import cleanDist from './cleanDist';
-import transpileTS from './transpileTS';
-import createPackageFile from './createPackageFile';
 import copyRequiredFiles from './copyRequiredFiles';
+import createPackageFile from './createPackageFile';
+import transpileTS from './transpileTS';
 
 export default async function buildTSPackage(): Promise<void> {
   cleanDist();

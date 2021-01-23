@@ -2,8 +2,8 @@
 
 import fs from 'fs';
 import path from 'path';
-import util from 'util';
 import process from 'process';
+import util from 'util';
 
 const readFileAsync: Function = util.promisify(fs.readFile);
 const writeFileAsync: Function = util.promisify(fs.writeFile);
