@@ -25,14 +25,6 @@ jobs:
       - name: Build output
         run: yarn build
 
-      - name: Run Tests
-        run: yarn test
-
-      - name: Send coverage
-        run: yarn codecov
-        env:
-          CODECOV_TOKEN: "${{ secrets.CODECOV_TOKEN }}"
-
       - uses: boilerz/action-release@master
         if: github.ref == 'refs/heads/master'
         with:
