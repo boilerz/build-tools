@@ -47,7 +47,7 @@ export default async function createPackageFile(): Promise<PackageJson> {
     'utf8',
   );
 
-  console.log(`Created package.json in ${targetPath}`);
+  console.log(`📦 Created package.json in ${targetPath}`);
 
   return newPackageData;
 }
