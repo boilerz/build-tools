@@ -59,7 +59,7 @@ const keyMetaData: TemplateKeyMetaData[] = [
 ];
 
 async function ask(question: string, defaultValue: string): Promise<string> {
-  return new Promise((resolve: Function): void => {
+  return new Promise((resolve): void => {
     READ_INTERFACE.question(question, (answer: string): void => {
       resolve(answer || defaultValue);
     });
