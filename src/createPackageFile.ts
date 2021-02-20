@@ -5,8 +5,10 @@ import path from 'path';
 import process from 'process';
 import util from 'util';
 
-const readFileAsync: Function = util.promisify(fs.readFile);
-const writeFileAsync: Function = util.promisify(fs.writeFile);
+import omit from 'lodash.omit';
+
+const readFileAsync = util.promisify(fs.readFile);
+const writeFileAsync = util.promisify(fs.writeFile);
 
 interface PackageJson {
   name: string;
@@ -24,16 +26,16 @@ export default async function createPackageFile(): Promise<PackageJson> {
     path.resolve(process.cwd(), 'package.json'),
     'utf8',
   );
-  const {
-    nyc,
-    scripts,
-    devDependencies,
-    workspaces,
-    ...packageDataOther
-  } = JSON.parse(packageData);
+  const cleanedPackageData: PackageJson = omit(
+    JSON.parse(packageData),
+    'nyc',
+    'scripts',
+    'devDependencies',
+    'workspaces',
+  ) as PackageJson;
 
   const newPackageData: PackageJson = {
-    ...packageDataOther,
+    ...cleanedPackageData,
     private: false,
     main: './index.js',
   };
