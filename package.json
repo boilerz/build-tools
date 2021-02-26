@@ -17,6 +17,7 @@
   },
   "scripts": {
     "lint": "eslint --ext .ts .",
+    "typecheck": "tsc",
     "build:package": "ts-node src/buildTSPackage.ts",
     "build:chmod": "chmod +x dist/*.js",
     "build": "yarn build:package && yarn build:chmod"
