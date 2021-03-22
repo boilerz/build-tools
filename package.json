@@ -23,7 +23,7 @@
     "build": "yarn build:package && yarn build:chmod"
   },
   "devDependencies": {
-    "@boilerz/eslint-config": "^2.0.19",
+    "@boilerz/eslint-config": "^2.0.20",
     "@boilerz/prettier-config": "^1.0.4",
     "@boilerz/tsconfig": "^1.4.8",
     "@boilerz/tsconfig-production": "^1.4.8",
