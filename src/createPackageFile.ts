@@ -52,4 +52,4 @@ export default async function createPackageFile(): Promise<PackageJson> {
   return newPackageData;
 }
 
-if (!module.parent) createPackageFile().catch(console.error);
+if (require.main === module) createPackageFile().catch(console.error);

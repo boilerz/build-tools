@@ -8,4 +8,4 @@ export default function cleanDist(): void {
   execSync('rm -rf dist');
 }
 
-if (!module.parent) cleanDist();
+if (require.main === module) cleanDist();
