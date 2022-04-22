@@ -12,7 +12,7 @@ export default async function buildTSPackage(): Promise<void> {
   await createPackageFile();
 }
 
-if (!module.parent)
+if (require.main === module)
   buildTSPackage().catch((err: Error): void => {
     console.error(err);
     process.exit(1);

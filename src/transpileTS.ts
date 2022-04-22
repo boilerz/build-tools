@@ -29,4 +29,4 @@ export default function transpileTS(): void {
   }
 }
 
-if (!module.parent) transpileTS();
+if (require.main === module) transpileTS();

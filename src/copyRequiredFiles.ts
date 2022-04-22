@@ -9,4 +9,4 @@ export default function copyRequiredFiles(): void {
   execSync('cp yarn.lock dist');
 }
 
-if (!module.parent) copyRequiredFiles();
+if (require.main === module) copyRequiredFiles();

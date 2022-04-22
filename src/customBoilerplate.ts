@@ -144,4 +144,4 @@ export default async function customBoilerPlate(): Promise<void> {
   await cleanPackage();
 }
 
-if (!module.parent) customBoilerPlate().catch(console.error);
+if (require.main === module) customBoilerPlate().catch(console.error);
