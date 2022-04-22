@@ -24,7 +24,7 @@ export default function transpileTS(): void {
     );
     execSync(`tsc -p ${configFile}`);
   } catch (err) {
-    console.error(err.output.toString());
+    console.error((err as Error).message);
     throw new Error('TranspileTS');
   }
 }
