@@ -80,12 +80,12 @@
   dependencies:
     "@tsconfig/node14" "^1.0.0"
 
-"@boilerz/tsconfig@^1.4.14":
-  version "1.4.14"
-  resolved "https://registry.yarnpkg.com/@boilerz/tsconfig/-/tsconfig-1.4.14.tgz#1b7763455de3201e4dfe97488e327d1efe1c05e3"
-  integrity sha512-DDfOd9TR59WM5yBbUdBctj2h3I8sIQIYKpmdPl3mnN/stxUWQIKalXf3B6dpcvQyFlZGzh6KsO+vsvR3ucFQxQ==
+"@boilerz/tsconfig@^1.4.15":
+  version "1.4.15"
+  resolved "https://registry.yarnpkg.com/@boilerz/tsconfig/-/tsconfig-1.4.15.tgz#284f5895f68ca9ac6f8f1b8277139b5a53c132ba"
+  integrity sha512-7eUJ8zw46heuAhsIesmfgcpY/I2KWbMODtXitih9UW7MZ+Cv77SzZr9ord6TVZyr3a7FpZDoBCazExMKVdv4Ug==
   dependencies:
-    "@tsconfig/node14" "^1.0.0"
+    "@tsconfig/node16" "^1.0.2"
 
 "@cspotcode/source-map-consumer@0.8.0":
   version "0.8.0"
