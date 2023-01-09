@@ -25,7 +25,7 @@
   "devDependencies": {
     "@boilerz/eslint-config": "^2.0.38",
     "@boilerz/prettier-config": "^1.0.4",
-    "@boilerz/tsconfig": "^1.4.16",
+    "@boilerz/tsconfig": "^1.4.17",
     "@boilerz/tsconfig-production": "^1.4.16",
     "@types/lodash.omit": "^4.5.7",
     "@types/node": "^18.11.18",
