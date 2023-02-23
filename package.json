@@ -28,7 +28,7 @@
     "@boilerz/tsconfig": "^1.4.17",
     "@boilerz/tsconfig-production": "^1.4.17",
     "@types/lodash.omit": "^4.5.7",
-    "@types/node": "^18.14.0",
+    "@types/node": "^18.14.1",
     "eslint": "^7.32.0",
     "prettier": "^2.8.4",
     "ts-node": "^10.9.1",
